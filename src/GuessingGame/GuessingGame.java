@@ -13,7 +13,7 @@ public class GuessingGame {
         System.out.println("\nO jogo vai começar!");
 
         int tries = 10;
-        int answer = random.nextInt(1, 2);
+        int answer = random.nextInt(1, 51);
         boolean continueGame = true;
 
         System.out.print("Adivinhe um número entre 1 e 50 (" + tries + " tentativas): ");
